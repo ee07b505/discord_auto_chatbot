@@ -49,7 +49,7 @@ async function loopSendMsg(bot, ts, channelId, data) {
                 continue
             }
             // 挑一条记录，这里选择最后一条，这里可以按自己的想法改
-            const msg = data.pop()
+            const msg = data[Math.floor(Math.random()*data.length)]
             await sendMsg(bot, msg, channelId)
             await sleep(getRandomInt(ts, ts + 10) * 1000)            
         } catch (error) {
@@ -87,7 +87,7 @@ async function main() {
         }
     });
 
-    await loopSendMsg(chatbot, 1, targetChannel.id, msgs)
+    await loopSendMsg(chatbot, 60, targetChannel.id, msgs)
 
 }
 
