@@ -88,6 +88,7 @@ async function main() {
     });
 
     await loopSendMsg(chatbot, 60, targetChannel.id, msgs)
+    //60秒一次循环
 
 }
 
