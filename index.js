@@ -82,7 +82,7 @@ async function main() {
           msg.content = message.content
           console.log(msg.authorUsername, message.content)
         
-          // 把聊天记录存起来
+          // 从选定channel抄200条聊天记录存起来
          if (msgs.length < 200) {
                console.log(msgs.push(msg))
          }
