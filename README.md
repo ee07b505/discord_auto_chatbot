@@ -11,9 +11,9 @@ git clone https://github.com/ee07b505/discord_auto_chatbot.git
 
 cd discord_auto_chatbot
 
-请修改config.json  
+//请修改config.json  
 
-token F12获取 会一闪而过
+//token F12获取 会一闪而过
 
 node index.js
 
