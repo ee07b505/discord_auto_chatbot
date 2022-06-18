@@ -83,7 +83,9 @@ async function main() {
           console.log(msg.authorUsername, message.content)
         
           // 把聊天记录存起来
-          msgs.push(msg)
+         if (msgs.length < 200) {
+               console.log(msgs.push(msg))
+         }
         }
     });
 
