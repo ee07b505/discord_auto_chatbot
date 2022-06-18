@@ -2,6 +2,7 @@
 
 
 sudo apt update 
+
 sudo apt install npm 
 
 npm i discord.js-v11-stable
