@@ -1,7 +1,14 @@
 # discord_auto_chatbot
 请修改config.json  
 
+sudo apt update 
+sudo apt install npm 
+
 npm i discord.js-v11-stable
+
+git clone 
+
+cd
 
 node index.js
 
