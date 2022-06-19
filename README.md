@@ -22,3 +22,5 @@ nohup node index.js &
  nohup node index.js & >/dev/null 2>&1
 
 [文档](https://mirror.xyz/0x3Fe18E6CbE4138A92157962fB478129f5F30B780/6zNqaF4YnqEWGNNSIAI4ltCGaL1__KlhqUQdvonlXCg)
+
+[注册链接myria项目](https://myria.com/sigil/?code=fc26bc14-6b54-4ef0-9e8e-b2ff9df02de9)
