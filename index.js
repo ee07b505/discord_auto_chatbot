@@ -81,10 +81,10 @@ async function main() {
           msg.authorUsername = message.author.username
           msg.content = message.content
           console.log(msg.authorUsername, message.content)
-        
-          // 从选定channel抄200条聊天记录存起来
-         if (msgs.length < 200) {
-               console.log(msgs.push(msg))
+          msgs.push(msg)
+          // 从选定channel抄1000条聊天记录存起来,超出则把数字第一条删掉
+         if (msgs.length > 1000) {
+               msgs.shift()
          }
         }
     });
